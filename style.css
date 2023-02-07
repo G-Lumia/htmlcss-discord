@@ -156,3 +156,68 @@ section img{
 #full-size{
   max-width: 100%;;
 }
+
+.blue-discord{
+  background-color: #7289da;
+  color:white;
+  width:fit-content;
+  margin-top:20px;
+}
+
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ready{
+  background-image: url(./img/stars.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 30%;
+}
+
+/* footer */
+
+footer{
+  background-color: #23272a;
+  margin-top:60px;
+  padding-bottom:40px;
+}
+footer h2{
+  color:#7289da;
+}
+
+.icons{
+  color: white;
+}
+
+footer li img{
+  width: 20px;
+}
+
+.b-link{
+  color:#7289da
+}
+
+.w-link{
+  color:white;
+}
+
+footer ul{
+  padding:30px;
+}
+
+footer ul li{
+  padding-top:10px;
+}
+
+hr{
+  color:#7289da;
+}
+
+footer div:last-child{
+  padding-top:10px;
+  margin-top:0;
+}
