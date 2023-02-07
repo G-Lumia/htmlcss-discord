@@ -1,7 +1,16 @@
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
 }
 
 body{
@@ -11,13 +20,6 @@ body{
 
 /* utility */
 
-.container{
-  max-width: 1200px;
-  padding: 0px 15px;
-  margin: 0 auto;
-}
-
-
 .d-flex{
     display:flex;
 }
@@ -26,12 +28,13 @@ body{
     justify-content: space-around;
 }
 
-.betweeen{
+.between{
   justify-content: space-between;
 }
 
 .center{
     align-items: center;
+    align-content: center;
 }
 
 .row{
@@ -60,14 +63,71 @@ body{
 
 /* header */
 
-.hero{
+.container{
+  width:100%;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+#hero{
   background-image: url(./img/jumbo.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   min-height:500px;
-  position: center;
+  position:center;
+}
+
+nav.container{
+  padding-top:20px;
+}
+
+.links{
+  width:50%;
+  font-size: 0.8em;
 }
 
 header a{
   color: white;
+}
+
+.btn{
+  border-radius: 25px;
+  padding: 0.5em;
+  text-align: center;
+}
+
+nav a.btn{
+  background-color: white;
+  color: black;
+  font-size: 0.8em;
+}
+
+header section.container{
+  width:50%;
+  padding-top: 100px;
+  color:white;
+}
+
+header h1{
+  font-size: 2.5em;
+}
+
+header p{
+  padding-top:20px;
+  line-height: 1.5em;
+}
+
+div.buttons{
+  padding-top:30px;
+}
+
+#white-link{
+  color:black;
+  background-color: white;
+}
+
+#black-link{
+  color:white;
+  background-color: black;
 }
